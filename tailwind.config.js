@@ -5,6 +5,14 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+
+  //build 
+  safelist: [
+    {
+      pattern: /^grid-cols-/,
+      variants: ['sm', 'md', 'lg', 'xl', '2xl']
+    }
+  ],
   theme: {
     extend: {
       backgroundImage: {
