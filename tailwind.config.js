@@ -6,7 +6,7 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
 
-  //build 
+  //build para montar classe de forma dinamica
   safelist: [
     {
       pattern: /^grid-cols-/,
