@@ -1,7 +1,12 @@
+import StartRequest from "../../components/start";
 
 export default function Page() {
 
-  
-  
-  return <> <h2>conteudo</h2> </>
+  return (
+    <>
+
+    <StartRequest />
+      <h2>conteudo</h2>
+</>
+  );
 }
